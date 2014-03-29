@@ -1,5 +1,5 @@
-Author: Dave Fleisher (http://davefleisher.com)
-Author Email: dave@davefleisher.com
+<h3>Author: Dave Fleisher (http://davefleisher.com)</h3>
+<h3>Author Email: dave@davefleisher.com</h3>
 Version: 1.0
 License: GPL v3
 
