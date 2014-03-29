@@ -1,5 +1,5 @@
 <?php
-function make_iframe_responsive($content,$widthCommonDenom,$heightCommonDenom,array $hosts = null) {	
+function make_iframe_responsive($content,$widthCommonDenom = 16,$heightCommonDenom = 9,array $hosts = null) {	
 	// Define regex's and match arrays to store regex matches
 	$iframePattern = '/<iframe(.*?)><\/iframe>/';
 	$srcPattern = '/src="(.*?)"/';

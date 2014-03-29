@@ -8,13 +8,15 @@ License: GPL v3</p>
 
 <h4>Usage:</h4>
 <ul>
-<li>Include ResponsiveIframe.css <link rel="stylesheet" type="text/css" href="/path/to/ResponsiveIframe.css"/></li>
-<li>Include ResponsiveIframe.php <?php require_once('path/to/ResponsiveIframe.php'); ?></li>
+<li>Include ResponsiveIframe.css</li>
+<li>Include ResponsiveIframe.php</li>
 <li>Call make_iframe_responsive($content,$widthCommonDenom,$heightCommonDenom,$hosts)</li>
 </ul>
 
-<p>$content = 'Hello world...<iframe width="560" height="315" src="//www.youtube.com/embed/jofNR_WkoCE" frameborder="0" allowfullscreen></iframe>';</p>
-<p>echo make_iframe_responsive($content,16,9,array("youtube","vimeo"));</p>
+<code>
+$content = 'Hello world...<iframe width="560" height="315" src="//www.youtube.com/embed/jofNR_WkoCE" frameborder="0" allowfullscreen></iframe>';
+echo make_iframe_responsive($content,16,9,array("youtube","vimeo"));
+</code>
 
 <h4>Limitations:</h4>
 <ul>
