@@ -8,9 +8,9 @@ License: GPL v3</p>
 
 <h4>Usage:</h4>
 <ul>
-<li>Include ResponsiveIframe.css <code>```html<link rel="stylesheet" type="text/css" href="path/to/ResponsiveIframe.css"/>```</code></li>
-<li>Include ResponsiveIframe.php <code>```html<?php require_once('path/to/ResponsiveIframe.php'); ?>```</code></li>
-<li>Call make_iframe_responsive($content,$widthCommonDenom,$heightCommonDenom,$hosts)</li>
+<li>Include ResponsiveIframe.css</li>
+<li>Include ResponsiveIframe.php</li>
+<li>Call <code>make_iframe_responsive($content,$widthCommonDenom,$heightCommonDenom,$hosts);</code></li>
 </ul>
 
 <code><pre>
