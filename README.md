@@ -16,6 +16,6 @@ License: GPL v3</p>
 <h4>Limitations:</h4>
 <ul>
 <li>Will only work if there is a maximum of ONE (1) iframe in the content passed in</li>
-<li>Assumes width, height, and source parameters are contained within double quotes "..."</li>
+<li>Assumes width, height, and source parameters are contained within double quotes src="..."</li>
 <li>Although we can provide a whitelist array of different hosts that require replacement, all videos must have the same ratio $widthCommonDenom : $heightCommonDenom</li>
 </ul>
